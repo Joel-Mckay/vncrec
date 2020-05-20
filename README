@@ -1,3 +1,5 @@
+Please use http://panthema.net/2014/vncrec-rgb/ version, and this one is KVM VM seession application specific. 
+
     ,
    / \   xmkmf, make World, su, make install, make install.man
   / ! \  "vncrec -record out.vnc" - behaves like a vnc viewer,
@@ -6,20 +8,7 @@
   QUICK  See below for encoding output of "vncrec -movie out.vnc"
   START
 
-vncrec 0.4
-==========
-
-This is basically a patched VNC from AT&T Laboratories Cambridge. Contains a
-patched VNC viewer that allows record (-record), playback (-play), and video
-export (-movie) of VNC sessions. The license is GPL (LICENCE.TXT).
-
-> VNC server - you need to have a VNC server on this or other machine to
-  be able to use vncrec. GPL Examples:
-  TightVNC http://www.tightvnc.com/
-  RealVNC http://realvnc.com/
-  x11vnc http://freshmeat.net/projects/x11vnc/
-  OSXvnc (Vine Server) http://sourceforge.net/projects/osxvnc/files/
-
+  
 To build vncrec, do:
   % xmkmf
   % make World
